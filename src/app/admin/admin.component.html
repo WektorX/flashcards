@@ -1,0 +1,38 @@
+<p>Panel administratora !!!</p>
+<div *ngIf="showAdmin">
+  <div class="lekcjaAdd" (click)="add()">DODAJ LEKCJE</div>
+  <div *ngFor="let lekcja of lekcje" class="lekcja">
+    Lekcja nr {{ lekcja.nr }} {{ lekcja.nazwa }}
+    <div class="del" (click)="del(lekcja.nr)">X</div>
+    <div class="edit" (click)="edit(lekcja.nr)">N</div>
+    <div class="editZ" (click)="editZaw(lekcja.nr)">E</div>
+  </div>
+</div>
+<div id="delB">
+  <div id="panelD">
+    <h3>Czy na pewno usunąć tą lekcję ?</h3>
+    <div class="but" (click)="delete()">TAK</div>
+    <div class="but" (click)="anuluj()">NIE</div>
+  </div>
+</div>
+
+<div id="addB">
+  <div id="panelA">
+    <h3>Czy chcesz nadać lekcji nazwę ?</h3>
+    <div class="but" (click)="nameYes()" id="a">TAK</div>
+    <div class="but" (click)="nameNo()" id="b">NIE</div>
+    <br />
+    <input type="text" id="nazwaL" /> <br />
+    <div class="but" (click)="named()" id="c">DODAJ</div>
+  </div>
+</div>
+
+<div id="editB">
+  <div id="panelE">
+    <h3>Zmień nazwę lekcji !</h3>
+    <input type="text" id="nazwaE" /> <br />
+    <div class="but" (click)="saveE()" id="a">ZAPISZ</div>
+    <div class="but" (click)="cancleE()" id="b">ANULUJ</div>
+  </div>
+</div>
+<app-edit *ngIf="showEdit" [zawartosc]="zawartosc" [ktora]="ktora"></app-edit>

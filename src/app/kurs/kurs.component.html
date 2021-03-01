@@ -1,0 +1,16 @@
+<div *ngIf="showKurs" id="glowna">
+  <div
+    (click)="Click(lekcja.nr)"
+    *ngFor="let lekcja of lekcje"
+    [ngClass]="{
+      'lekcja-wybor': !toogle[lekcja.nr - 1],
+      'lekcja-wybrana': toogle[lekcja.nr - 1]
+    }"
+  >
+    Lekcja nr {{ lekcja.nr }} {{ lekcja.nazwa }}
+  </div>
+  <div *ngIf="zaznacz" class="start" (click)="Zaznacz()">Zaznacz wszystkie</div>
+  <div *ngIf="odznacz" class="start" (click)="Odznacz()">Odznacz wszystkie</div>
+  <div class="start" (click)="Start()">Start</div>
+</div>
+<app-nauka *ngIf="showNauka" [slowka]="slowka"> </app-nauka>

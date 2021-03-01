@@ -1,0 +1,34 @@
+<div id="main">
+  <div class="wiersz2" (click)="add()">Dodaj nowe słowo</div>
+  <div *ngFor="let slowo of zawartosc" class="lekcja">
+    <div class="wiersz">
+      <div class="slowo">{{ slowo.pl }}</div>
+      <div class="slowo">{{ slowo.en }}</div>
+
+      <div class="del" (click)="del(slowo.pl)">X</div>
+      <div class="editZ" (click)="editZaw(slowo.pl, slowo.en)">E</div>
+    </div>
+  </div>
+</div>
+
+<div id="addS">
+  <div id="panelS">
+    <h3>Dodaj nowe słowo</h3>
+    <label> PL :<input type="text" id="slowoP"/></label> <br />
+    <label> EN :<input type="text" id="slowoE"/></label> <br />
+    <div class="but" (click)="saveS()" id="a">ZAPISZ</div>
+    <div class="but" (click)="cancleS()" id="b">ANULUJ</div>
+  </div>
+</div>
+
+<div id="editS">
+  <div id="panelS">
+    <h3>Edytuj słowo</h3>
+    <label> PL :<input type="text" id="slowoPol"/></label> <br />
+    <label> EN :<input type="text" id="slowoEng"/></label> <br />
+    <div class="but" (click)="saveSS()" id="a">ZAPISZ</div>
+    <div class="but" (click)="cancleSS()" id="b">ANULUJ</div>
+  </div>
+</div>
+
+<div class="wiersz2"><a href="/admin">Powrót</a></div>

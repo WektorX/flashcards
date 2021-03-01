@@ -1,0 +1,139 @@
+* {
+    margin: 0 auto;
+}
+
+.wiersz {
+    width: 40vw;
+    height: 50px;
+    border: 2px solid mediumvioletred;
+    margin: 10px auto;
+    border-radius: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+.wiersz:hover {
+    background: mediumvioletred;
+}
+
+.wiersz2 {
+    width: 40vw;
+    height: 50px;
+    border: 2px solid rgb(109, 10, 73);
+    margin: 10px auto;
+    border-radius: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+.wiersz2:hover {
+    background: rgb(109, 10, 73);
+}
+
+.slowo {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.del {
+    width: 30px;
+    height: 30px;
+    background: crimson;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px
+}
+
+.del:hover {
+    cursor: pointer;
+}
+
+.editZ {
+    width: 30px;
+    height: 30px;
+    background: yellowgreen;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px
+}
+
+.editZ:hover {
+    cursor: pointer;
+}
+
+.but {
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.but:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#addS {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(222, 222, 222, 0.9);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+    z-index: 20;
+}
+
+#panelS {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#slowoP #slowoE {
+    display: inline-block;
+    height: 30px;
+}
+
+#main {
+    z-index: 1;
+}
+
+#editS {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(222, 222, 222, 0.9);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+    z-index: 20;
+}
+
+#panelS {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}

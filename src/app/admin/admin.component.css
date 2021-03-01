@@ -1,0 +1,178 @@
+.lekcja {
+    width: 40vw;
+    height: 50px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid lightgreen;
+    line-height: 50px;
+    text-align: left;
+    font-size: 25px;
+    position: relative;
+    border-radius: 50px
+}
+
+.lekcja:hover {
+    background: lightgreen;
+}
+
+.del {
+    width: 30px;
+    height: 30px;
+    background: crimson;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px
+}
+
+.del:hover {
+    cursor: pointer;
+}
+
+.edit {
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px
+}
+
+.edit:hover {
+    cursor: pointer;
+}
+
+.editZ {
+    width: 30px;
+    height: 30px;
+    background: yellowgreen;
+    position: absolute;
+    right: 90px;
+    top: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px
+}
+
+.editZ:hover {
+    cursor: pointer;
+}
+
+.lekcjaAdd {
+    width: 40vw;
+    height: 50px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid darkolivegreen;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    border-radius: 50px
+}
+
+.lekcjaAdd:hover {
+    background: darkolivegreen;
+    cursor: pointer;
+}
+
+#delB {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(222, 222, 222, 0.9);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+#panelD {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.but {
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.but:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#addB {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(222, 222, 222, 0.9);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+#panelA {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#nazwaL {
+    display: none;
+    height: 30px;
+}
+
+#c {
+    display: none;
+}
+
+#editB {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(222, 222, 222, 0.9);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+#panelE {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#nazwaE {
+    display: inline-block;
+    height: 30px;
+}

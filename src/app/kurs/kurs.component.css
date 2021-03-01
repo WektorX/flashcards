@@ -1,0 +1,55 @@
+.lekcja-wybor{
+    width: 15vw;
+    height: 50px;
+    border-radius: 30px;
+    border:3px solid lightskyblue;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.lekcja-wybrana{
+    width: 15vw;
+    height: 50px;
+    border-radius: 30px;
+    border:3px solid lightskyblue;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    background: lightskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#glowna{
+    justify-content: center;
+    display: inline-block;
+}
+.lekcja-wybor:hover{
+    background: lightskyblue;
+    border:lightskyblue 3px solid;
+    cursor: pointer;
+}
+
+.start{
+    width: 15vw;
+    color: darkblue;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 30px;
+    border:3px solid darkblue;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.start:hover{
+    border: 3px solid darkblue;
+    color: white;
+    background: darkblue;
+
+}

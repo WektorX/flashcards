@@ -1,0 +1,16 @@
+<div class="main">
+  <h2>Pozostało : {{ pozostalo }}</h2>
+  <div *ngIf="isOk">
+    <h3 *ngIf="isPolskie">Słówko polskie</h3>
+    <div class="slowko" *ngIf="isPolskie" (click)="klik()">
+      <b>{{ polskie }}</b>
+    </div>
+    <h3 *ngIf="isAng">Słóko angielskie</h3>
+    <div class="slowkoAng" *ngIf="isAng">
+      <b>{{ angielskie }}</b>
+    </div>
+  </div>
+  <div *ngIf="isEnd"><h3>Gratuluję ukonczyłeś lekcję :D</h3></div>
+
+  <div *ngIf="isEnd" class="slowko" id="backM"><a href="/">Powrót </a></div>
+</div>

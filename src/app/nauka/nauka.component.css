@@ -1,0 +1,37 @@
+.slowko{
+    width: 30vw;
+    height: 50px;
+    border-radius: 30px;
+    border:3px solid lightskyblue;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    display: inline-block;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.slowko:hover{
+    background: lightskyblue;
+    border:lightskyblue 3px solid;
+    cursor: pointer;
+}
+
+.slowkoAng{
+    width: 30vw;
+    height: 50px;
+    border-radius: 30px;
+    background: lightskyblue;
+    border:lightskyblue 3px solid;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
